@@ -1,0 +1,24 @@
+{
+    "version": 1,
+    "fileName": "fall-train-1.csv",
+    "created": 1710928080487,
+    "delimiter": ",",
+    "skipFirstLines": 0,
+    "fixedHeader": [
+        "x",
+        "y",
+        "z"
+    ],
+    "spec": {
+        "type": "timeseries-row",
+        "valueColumns": [
+            "x",
+            "y",
+            "z"
+        ],
+        "timestamp": {
+            "type": "fixed-frequency",
+            "frequency": 50
+        }
+    }
+}

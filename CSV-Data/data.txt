@@ -1,0 +1,8 @@
+train: 1250. (250 mỗi loại).
+test: 350. (70 mỗi loại).
+
+fall
+idle
+sitdown
+standup
+walk
